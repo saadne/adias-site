@@ -1,0 +1,17 @@
+@import "../../constans/colors.scss";
+
+@mixin breakpoint($point) {
+  @if $point == lg {
+    // 768px
+    @media (min-width: 62em) {
+      @content;
+    }
+  }
+}
+.up {
+  height: 5vh;
+  background-color: $forth-color;
+}
+.noneUp {
+  display: none;
+}
