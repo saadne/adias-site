@@ -56,9 +56,6 @@ export default () => {
         <SwiperSlide>
           <img src={image6} alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={image7} alt="slide_image" />
-        </SwiperSlide>
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
